@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fleet | vIberia</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <img src="https://www.designtagebuch.de/wp-content/uploads/mediathek//2013/10/iberia-logo.png" alt="vIberia logo">
+      <div>
+        <span class="brand-name">vIberia</span>
+        <span class="brand-sub">Virtual Airline</span>
+      </div>
+    </div>
+    <nav class="main-nav">
+      <a href="index.html">Home</a><a href="fleet.html">Fleet</a><a href="network.html">Network</a><a href="join.html">Join</a><a href="about.html">About</a><a href="faq.html">FAQ</a><a href="news.html">News</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <h1>Fleet</h1>
+      <p>Our fleet is structured for realistic short-haul, medium-haul, and long-haul operations from Madrid.</p>
+    </section>
+
+    <section class="section">
+      <div class="toolbar">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="short">Short Haul</button>
+        <button class="filter-btn" data-filter="medium">Medium Haul</button>
+        <button class="filter-btn" data-filter="long">Long Haul</button>
+      </div>
+
+      <div class="grid grid-3" id="fleetGrid">
+        <article class="card fleet-item" data-category="short">
+          <h3>Airbus A320 Family</h3>
+          <p>Primary short-haul platform for dense European and regional services.</p>
+        </article>
+        <article class="card fleet-item" data-category="medium long">
+          <h3>Airbus A330</h3>
+          <p>Flexible medium- and long-haul aircraft used for intercontinental routes and high-capacity missions.</p>
+        </article>
+        <article class="card fleet-item" data-category="long">
+          <h3>Airbus A350</h3>
+          <p>Flagship long-haul aircraft for premium transatlantic and high-demand international operations.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/fleet.js"></script>
+</body>
+</html>
